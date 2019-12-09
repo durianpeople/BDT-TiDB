@@ -1,0 +1,4 @@
+.vagrant
+.vscode
+Wordpress/*
+!Wordpress/wp-config.php
