@@ -77,7 +77,7 @@ define( 'DB_HOST', '192.168.17.28:4000' );
 
 Setelah melakukan proses intalasi dengan mengisi form yang disediakan Wordpress, aplikasi sudah dapat digunakan.
 
-![Screenshot_20191209_173100](/home/durianpeople/Documents/Kuliah Kelas/BDT/TiDB/images/Screenshot_20191209_173100.png)
+![Screenshot_20191209_173100](images/Screenshot_20191209_173100.png)
 
 ## Benchmark
 
@@ -205,13 +205,13 @@ Tahapan berikut dilakukan tiga kali, untuk pengujian performa database dengan ju
 
 Pada saat proses benchmarking, beberapa PD dimatikan. Berikut merupakan salah satu contoh failover, saat node1 dimatikan:
 
-![Screenshot_20191209_130300](/home/durianpeople/Documents/Kuliah Kelas/BDT/TiDB/images/Screenshot_20191209_130300.png)
+![Screenshot_20191209_130300](images/Screenshot_20191209_130300.png)
 
 Leader masih berada pada node1. Berikut setelah mematikan service PD pada node1:
 
-![Screenshot_20191209_130845](/home/durianpeople/Documents/Kuliah Kelas/BDT/TiDB/images/Screenshot_20191209_130845.png)
+![Screenshot_20191209_130845](images/Screenshot_20191209_130845.png)
 
-![Screenshot_20191209_130915](/home/durianpeople/Documents/Kuliah Kelas/BDT/TiDB/images/Screenshot_20191209_130915.png)
+![Screenshot_20191209_130915](images/Screenshot_20191209_130915.png)
 
 Leader pindah ke node2.
 
@@ -219,7 +219,7 @@ Leader pindah ke node2.
 
 Pengujian dilakukan dengan JMeter dengan jumlah koneksi {100, 500, 1000}
 
-![Screenshot_20191209_180331](/home/durianpeople/Documents/Kuliah Kelas/BDT/TiDB/images/Screenshot_20191209_180331.png)
+![Screenshot_20191209_180331](images/Screenshot_20191209_180331.png)
 
 ## Monitoring
 
@@ -284,6 +284,6 @@ Buka Grafana di `http://192.168.17.28:3000`, login, kemudian tambahkan Prometheu
 
 Import dashboard Grafana dengan konfigurasi JSON yang ada di `grafana/*.json` pada repository ini.
 
-![Screenshot_20191209_173601](/home/durianpeople/Documents/Kuliah Kelas/BDT/TiDB/images/Screenshot_20191209_173601.png)
+![Screenshot_20191209_173601](images/Screenshot_20191209_173601.png)
 
-![Screenshot_20191209_173337](/home/durianpeople/Documents/Kuliah Kelas/BDT/TiDB/images/Screenshot_20191209_173337.png)
+![Screenshot_20191209_173337](images/Screenshot_20191209_173337.png)
